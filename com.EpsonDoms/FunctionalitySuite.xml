@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functionality">
+	<test thread-count="5" name="ChromeTest">
+		<parameter name="browsername" value="Chrome"></parameter>
+		<parameter name="webUrl" value="file:///C:/Eclipse/com.EpsonDoms/src/main/resources/Softwares/webpage.html"></parameter>
+		<classes>
+			<class name="com.EpsonDoms.Welcometest.VerifyWelcomePageTest" />
+		</classes>
+	</test> <!--
+	ChromeTest -->
+</suite> <!--
+Functionality -->

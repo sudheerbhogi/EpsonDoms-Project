@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  <test thread-count="5" name="ChromeTest">
+    <classes>
+      <class name="com.EpsonDoms.ProdctTest.ElectronicProductTest"/>
+      <class name="com.EpsonDoms.ProdctTest.WomensProductTest"/>
+      <class name="com.EpsonDoms.ProdctTest.KidsProductTest"/>
+      <class name="com.EpsonDoms.ProdctTest.MensProductTest"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- RegressionTest -->
